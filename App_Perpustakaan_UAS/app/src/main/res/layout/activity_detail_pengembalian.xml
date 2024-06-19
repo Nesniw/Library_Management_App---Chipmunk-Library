@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailPengembalian">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/shape" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-75dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/otf"
+        android:text="   Detail Pengembalian"
+        android:textColor="#FFF"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/otf"
+        android:layout_marginBottom="20dp"
+        android:text="   Aman"
+        android:textColor="#4CAF50"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:fontFamily="@font/otf"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text=" Tanggal Pinjam         :"
+        android:textColor="#2A3132"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tglPinjamPen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Tanggal Pinjam"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Tanggal Kembali      :"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tglKembPen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Tanggal Kembali"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Selisih Hari                   :"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/SelisihHAri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="    Selisih Hari"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Denda                             :"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/denda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="    Denda"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+        </LinearLayout>

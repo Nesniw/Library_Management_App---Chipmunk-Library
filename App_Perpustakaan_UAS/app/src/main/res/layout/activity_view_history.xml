@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewHistory">
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/otf"
+        android:text="   View History"
+        android:textColor="#2A3132"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/otf"
+        android:layout_marginBottom="20dp"
+        android:text="   Kode Peminjaman      :"
+        android:textColor="#2A3132"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/viewkdpeminjam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-40dp"
+        android:fontFamily="@font/otf"
+        android:layout_marginBottom="20dp"
+        android:text="   Kode Peminjaman"
+        android:textColor="#2A3132"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/otf"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="Nama Peminjam          :"
+        android:textColor="#2A3132"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/viewnamapeminjam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Nama Peminjam"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="   No Telepon                      :"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/viewnotelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="   No Telepon"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Alamat                              :"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/viewalamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Alamat"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Tanggal Pinjam            :"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/viewtglpinjam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Tanggal Pinjam"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Kode Buku                        :"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/viewkdbuku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Kode Buku"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Tanggal Kembali         :"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/viewtglkembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Tanggal Kembali"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Status                                 :"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/viewstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="201dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="20dp"
+        android:text="   Status"
+        android:textColor="#2A3132"
+        android:fontFamily="@font/otf"
+        android:textSize="15dp" />
+
+</LinearLayout>

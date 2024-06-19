@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnPilih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="Pinjam"
+
+            />
+
+        <ImageView
+            android:id="@+id/ImageProduct"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="Image"
+            android:paddingStart="5dp"
+            android:src="@drawable/ic_launcher_background"
+            tools:ignore="ImageContrastCheck, RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/txtJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ImageProduct"
+            android:text="Prak7_MySQLImage"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:textColor="#2A3132"
+            android:fontFamily="@font/otf"/>
+
+        <TextView
+            android:id="@+id/txtPengarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ImageProduct"
+            android:text="Prak7_MySQLImage"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="18dp"
+            android:fontFamily="@font/outfitregular"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

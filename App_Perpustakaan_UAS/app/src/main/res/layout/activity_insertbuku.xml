@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertbukuActivity">
+
+    <ImageView
+        android:id="@+id/clickToUploadImg"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Choose File"
+        android:paddingBottom="20dp"
+        android:src="@drawable/vert_image"
+        tools:ignore="ImageContrastCheck"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:hint="Judul Buku"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/outfitregular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Genre"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <AutoCompleteTextView
+
+            android:id="@+id/auto_complete_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputPenerbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Penerbit"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editPenerbit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/outfitregular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputPengarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="12dp"
+        android:hint="Pengarang"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editPengarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/outfitregular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputTahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="12dp"
+        android:hint="Tahun Terbit"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTahun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/outfitregular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputRak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="12dp"
+        android:hint="Nomor Rak"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editRak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/outfitregular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="12dp"
+        android:hint="ISBN"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editISBN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/outfitregular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Save"
+            />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Edit"
+            android:layout_marginStart="30dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:text="Display"/>
+
+    </LinearLayout>
+
+</LinearLayout>

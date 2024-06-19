@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/shape" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/otf"
+        android:text="Aplikasi Perpustakaan"
+        android:textColor="#ffff"
+        android:textSize="30sp" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_view"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="-95dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="40dp"
+        app:columnCount="2">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/inputBuku"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/input" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+
+                    android:fontFamily="@font/otf"
+                    android:text="Input Data Buku"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/daftarBuku"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/books" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/otf"
+                    android:gravity="center"
+                    android:text="Daftar Buku"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/peminjamanBuku"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/handover" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/otf"
+                    android:gravity="center"
+                    android:text="Peminjaman
+                        Buku"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pengembalianBuku"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/returning" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/otf"
+                    android:gravity="center"
+                    android:text="Pengembalian
+                        Buku"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/history"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/history" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/otf"
+                    android:gravity="center"
+                    android:text="History Peminjaman"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ubahPW"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/personal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/otf"
+                    android:text="Ubah Profil"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.gridlayout.widget.GridLayout>
+</RelativeLayout>
+
+
+
+

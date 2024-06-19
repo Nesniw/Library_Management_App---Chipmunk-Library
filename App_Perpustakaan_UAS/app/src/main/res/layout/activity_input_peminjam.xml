@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InputPeminjam">
+
+    <TextView
+        android:layout_width="234dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/otf"
+        android:text="Input peminjam"
+        android:textColor="#2A3132"
+        android:textSize="30dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputNamaPeminjam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Nama peminjam"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editNamaPeminjam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/outfitregular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputNoTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Nomor Telepon"
+        android:importantForAutofill="no"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="number"
+            android:id="@+id/editNoTelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/outfitregular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="12dp"
+        android:hint="Alamat"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="100dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/outfitregular" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputtglPinjam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="2"
+            android:hint="Tanggal Pinjam"
+            android:inputType="text"
+            android:importantForAutofill="no"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            tools:layout_editor_absoluteX="100dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edittglPinjam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/outfitregular" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/btnCalendar"
+            android:layout_marginEnd="25dp"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:background="#00BCD4"
+            android:src="@drawable/ic_baseline_calendar_month_24"
+            android:text="Save" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Save"
+            />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Edit"
+            android:layout_marginStart="30dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:text="Reset"/>
+
+    </LinearLayout>
+
+</LinearLayout>
