@@ -1,4 +1,4 @@
-![image](https://github.com/Nesniw/Library_Management_System_Chipmunk_Library/assets/109383763/5625be63-e420-4b95-92a9-5b0707f81937)# Chipmunk Library Management System
+# Chipmunk Library Management System
 
 ## Overview
 
