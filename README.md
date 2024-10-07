@@ -20,10 +20,10 @@ Chipmunk Library Management System is an Android-based application designed to s
 - PHP is used for the backend of the library management system. The backend server is responsible for handling database operations, processing requests from the Android app, and sending back the appropriate responses.
 
 ## Preview 
-![image](https://github.com/Nesniw/Library_Management_System_Chipmunk_Library/assets/109383763/e100c10f-5ad7-4854-95b5-c1b247475ffb)
-![image](https://github.com/Nesniw/Library_Management_System_Chipmunk_Library/assets/109383763/ad39622a-1fce-45fe-a72e-9c558d3bc627)
-![image](https://github.com/Nesniw/Library_Management_System_Chipmunk_Library/assets/109383763/425d0d18-6cfc-4216-a40a-07cf725b3eb3)
-![image](https://github.com/Nesniw/Library_Management_System_Chipmunk_Library/assets/109383763/512ee9f6-5cde-464d-9924-7b3eee2d2059)
+![Chips 1](https://github.com/user-attachments/assets/66b49565-54a6-48fd-bbc2-157f76d8f0da)
+![Chips 2](https://github.com/user-attachments/assets/34a8dad4-4601-4df2-bbff-0a44db5e0b66)
+![Chips 3](https://github.com/user-attachments/assets/3367f362-abe5-472f-a68f-ec9af45d392a)
+![Chips 4](https://github.com/user-attachments/assets/48f3ca4c-97e1-4787-9ab6-73f847f0005a)
 
 ## Installation 
     1. Clone the Repository:
