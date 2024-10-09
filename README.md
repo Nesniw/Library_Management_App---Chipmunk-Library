@@ -40,8 +40,8 @@ Chipmunk Library Management System is an Android-based application designed to s
    - Click on the "Run" button in Android Studio to install and start the application.
   
 ## Thank You ❤❤
-Thank you for visiting Weathery! 😊
+Thank you for visiting Chipmunk Library Management System! 😊
 
-By Winsen Wiradinata <br> <br>
+By Winsen Wiradinata, Janesia Isabel, and Agnes Natalia R. <br> <br>
 <a href="https://www.linkedin.com/in/winsen-wiradinata/"><img src="https://img.shields.io/badge/-Winsen%20Wiradinata-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
 <a href="mailto:winsenwiradinata@gmail.com"><img src="https://img.shields.io/badge/-winsenwiradinata@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
