@@ -25,14 +25,23 @@ Chipmunk Library Management System is an Android-based application designed to s
 ![Chips 3](https://github.com/user-attachments/assets/3367f362-abe5-472f-a68f-ec9af45d392a)
 ![Chips 4](https://github.com/user-attachments/assets/48f3ca4c-97e1-4787-9ab6-73f847f0005a)
 
-## Installation 
-    1. Clone the Repository:
-        - git clone https://github.com/yourusername/chipmunk-library.git
-    2. Open in Android Studio:
-        - Launch Android Studio.
-        - Select "Open an existing Android Studio project" and navigate to the  cloned repository.
-    3. Build the Project:
-        - Allow Android Studio to build the project and resolve any dependencies.
-    4. Run the Application:
-        - Connect an Android device or start an emulator.
-        - Click on the "Run" button in Android Studio to install and start the application.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/chipmunk-library.git
+   ```
+2. Open in Android Studio:
+   - Launch Android Studio.
+   - Select "Open an existing Android Studio project" and navigate to the  cloned repository.
+3. Build the Project:
+   - Allow Android Studio to build the project and resolve any dependencies.
+4. Run the Application:
+   - Connect an Android device or start an emulator.
+   - Click on the "Run" button in Android Studio to install and start the application.
+  
+## Thank You ❤❤
+Thank you for visiting Weathery! 😊
+
+By Winsen Wiradinata <br> <br>
+<a href="https://www.linkedin.com/in/winsen-wiradinata/"><img src="https://img.shields.io/badge/-Winsen%20Wiradinata-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="mailto:winsenwiradinata@gmail.com"><img src="https://img.shields.io/badge/-winsenwiradinata@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
